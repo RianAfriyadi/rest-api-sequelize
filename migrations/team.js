@@ -5,7 +5,7 @@ const createTableTeam = async () => {
   try {
     await db.query(
       `
-        CREATE TABLE IF NOT EXISTS teams (
+        CREATE TABLE IF NOT EXISTS rian.teams (
         id_team serial PRIMARY KEY,
         name_team varchar(50) not null,
         createdAt timestamp,

@@ -25,7 +25,9 @@ const getListTeam = async (req, res) => {
 const createTeam = async (req, res) => {
   try {
     const payload = req.body;
+    console.log(payload)
     const query = await Team.create(payload)
+    
     res.status(200).send({
       message: 'OK',
       data: query.rows

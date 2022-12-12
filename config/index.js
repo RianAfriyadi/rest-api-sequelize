@@ -1,9 +1,9 @@
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize('training', 'training_admin', 'training_admin2022', {
-  host: '194.163.34.217',
+const sequelize = new Sequelize('training-nodejs', 'postgres', 'Erajaya2022', {
+  host: '192.168.3.250',
   dialect: 'postgres',
-  port: '5490'
+  port: '5432'
 });
 
 // const test = async () => {

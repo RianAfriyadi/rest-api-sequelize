@@ -20,6 +20,7 @@ const Player = sequelize.define('Player', {
   }
 }, {
   tableName: 'players',
+  schema: 'rian',
   // freezeTableName: true,
   createdAt: false,
   // If don't want updatedAt

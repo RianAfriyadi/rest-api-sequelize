@@ -16,6 +16,7 @@ const Team = sequelize.define('Team', {
  
 }, {
   tableName: 'teams',
+  schema: 'rian',
   // freezeTableName: true,
   createdAt: false,
   // If don't want updatedAt

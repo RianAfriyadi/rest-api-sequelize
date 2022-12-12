@@ -7,8 +7,8 @@ const dbInit = async () => {
   try {
     // await tableBarang()
     // await tablePlayer()
-    // await tableTeam()
-    await test()
+    await tableTeam()
+    // await test()
     process.exit(0)
   } catch (err) {
     console.log(err)

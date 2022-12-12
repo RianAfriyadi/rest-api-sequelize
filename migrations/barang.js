@@ -5,7 +5,7 @@ const createTableBarang = async () => {
   try {
     await db.query(
       `
-        CREATE TABLE IF NOT EXISTS Barang (
+        CREATE TABLE IF NOT EXISTS rian.Barang (
         id_barang serial PRIMARY KEY,
         nama_barang varchar(30) not null,
         harga int,
